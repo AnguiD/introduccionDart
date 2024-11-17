@@ -1,6 +1,6 @@
 void main() {
   // For
-  print('--- Numero Par Ciclo For ---');
+  print('Numero Par Ciclo For');
   List<int> numeros = [1, 3, 5, 7, 8, 10, 12];
   for (int i = 0; i < numeros.length; i++) {
     print('Revisando número: ${numeros[i]}');
@@ -12,7 +12,7 @@ void main() {
   print('');
 
   // While
-  print('--- Busqueda alumno con ciclo While ---');
+  print('Busqueda alumno con ciclo While');
   List<String> ubicaciones = ['Diego', 'Ros', 'Griss', 'Chucho', 'Angie'];
   int contador = 0;
   bool tesoroEncontrado = false;
@@ -27,7 +27,7 @@ void main() {
   print('');
 
   // Do-While
-  print('--- Temperatura con ciclo Do-While ---');
+  print('Temperatura con ciclo Do-While');
   int temperatura = 9;
   do {
     print('Temperatura actual: $temperatura°C');
@@ -36,7 +36,7 @@ void main() {
   print('¡La temperatura es lo suficientemente alta para salir!\n');
 
   // Break
-  print('--- Buscar ciudad con uso de break ---');
+  print('Buscar ciudad con uso de break');
   List<String> ciudades = [
     'Guadalajara',
     'CDMX',
