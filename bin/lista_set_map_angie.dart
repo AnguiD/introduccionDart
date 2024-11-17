@@ -1,7 +1,7 @@
 void main() {
-  // List: operaciones con listas
+  // List
   print("\n");
-  print('--- Operaciones con Listas ---');
+  print('Listas');
   List<String> frutas = ['Manzana', 'Plátano', 'Cereza'];
   frutas.add('Uva');
   frutas.remove('Plátano');
@@ -12,8 +12,8 @@ void main() {
   print('Primera fruta: ${frutas.first}');
   print('Última fruta: ${frutas.last}\n');
 
-  // Set: operaciones con conjuntos
-  print('--- Operaciones con Conjuntos (Set) ---');
+  // Set
+  print('Operaciones con Conjuntos (Set)');
   Set<String> colores = {'Rojo', 'Verde', 'Azul', 'Amarillo'};
   colores.add('Naranja');
   colores.remove('Verde');
@@ -22,8 +22,8 @@ void main() {
   print('¿Contiene Azul?: ${colores.contains('Azul')}');
   print('Tamaño del conjunto de colores: ${colores.length}\n');
 
-  // Map: operaciones con mapas
-  print('--- Operaciones con Mapas ---');
+  // Map
+  print('Operaciones con Map');
   Map<String, double> preciosProductos = {
     'Laptop': 950.0,
     'Teléfono': 500.0,
