@@ -1,15 +1,15 @@
 void main() {
-  // --- If: Verificar si un número es mayor que 10 ---
-  print('--- If: Verificar si un número es mayor que 10 ---');
-  int numero = 15;
-  if (numero > 10) {
-    print('El número $numero es mayor que 10.');
+  // If
+  print('Calificacion');
+  int numero = 8;
+  if (numero > 7) {
+    print('El número $numero es mayor que 7. Calificacion aprobatoria.');
   }
   print('');
 
-  // --- If-Else: VER SI UN NUMERO ES NEGATIVO---
+  // If-Else
   int numero2 = -3;
-  print('--- If-Else: Verificar si un número es positivo o negativo ---');
+  print('Numero positivo o negativo');
   if (numero2 > 0) {
     print('El número $numero2 es positivo.');
   } else {
@@ -17,9 +17,9 @@ void main() {
   }
   print('');
 
-  // --- Switch: ELEGIR UNA BEBIDA ---
+  // Switch
   String bebida = 'Café';
-  print('--- Switch: Elegir una bebida ---');
+  print('Elige una bebida ---');
   switch (bebida) {
     case 'Café':
       print('Has elegido un café.');
